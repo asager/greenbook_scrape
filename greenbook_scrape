@@ -70,5 +70,5 @@ for item in pages:
 	new_worksheet.cell(row=i,column=5).value = zipcode_data["Density"]
 	new_worksheet.cell(row=i,column=6).value = item
 	i+=1 #increment row to which we add data
-
 wb.save(filename=dest_filename)
+print("Compilation of Greenbook data is complete")
